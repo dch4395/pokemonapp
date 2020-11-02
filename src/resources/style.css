@@ -1,0 +1,644 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) { 
+    .text-align-left{
+        text-align: center !important;
+        margin-top: 1px;
+    }
+
+    .text-align-right{
+        text-align: center !important;
+        margin-top: 1px;
+    }
+
+    .buttonLink{
+        font-size: 14px;
+    }
+    
+    .buttonReleaseAll{
+        margin-top: 1.5px;
+        margin-left: 1px;
+    }
+
+    .buttonLinkHeader{
+        font-size: 14px;
+    }
+
+    .modal-dialog {
+        margin: 8rem auto;
+    }
+
+    .buttonLinkModal{
+        margin-top: 1px;
+    }
+
+    .pokemonLogo{
+        max-width: 60% !important;
+    }
+
+    .jumpPage{
+        text-align: center;
+    }
+
+    .react-bootstrap-table-page-btns-ul{
+        float: none !important;
+        justify-content: center;
+    }
+
+    .buttonLinkHeader:hover{
+        font-size: 16px !important;
+    }
+}
+
+@media (min-width: 575px) { 
+    .jumpPage{
+        text-align: left;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .text-align-left{
+        text-align: left !important;
+        margin-top: 1px;
+    }
+
+    .text-align-right{
+        text-align: right !important;
+        margin-top: 1px;
+    }
+
+    .buttonLink{
+        font-size: 16px;
+    }
+
+    .buttonReleaseAll{
+        margin-top: 0px;
+        margin-left: 1px;
+    }
+
+    .buttonLinkHeader{
+        font-size:16px;
+    }
+
+    .modal-dialog {
+        margin: 10rem auto;
+    }
+
+    .buttonLinkModal{
+        margin-top: 0px;
+    }
+
+    .pokemonLogo{
+        max-width: 30% !important;
+    }
+
+    .jumpPage{
+        text-align: left;
+    }
+    
+    .react-bootstrap-table-page-btns-ul{
+        float: right !important;
+        justify-content: unset;
+    }
+
+    .buttonLinkHeader:hover{
+        font-size: 18px !important;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .text-align-left{
+        text-align: left !important;
+        margin-top: 1px;
+    }
+
+    .text-align-right{
+        text-align: right !important;
+        margin-top: 1px;
+    }
+
+    .buttonLink{
+        font-size: 16px;
+    }
+
+    .buttonReleaseAll{
+        margin-top: 0px;
+        margin-left: 1px;
+    }
+
+    .buttonLinkHeader{
+        font-size:20px;
+    }
+
+    .modal-dialog {
+        margin: 10rem auto;
+    }
+
+    .buttonLinkModal{
+        margin-top: 0px;
+    }
+
+    .pokemonLogo{
+        max-width: 25% !important;
+    }
+
+    .jumpPage{
+        text-align: left;
+    }
+
+    .react-bootstrap-table-page-btns-ul{
+        float: right !important;
+        justify-content: unset;
+    }
+
+    .buttonLinkHeader:hover{
+        font-size: 22px !important;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .text-align-left{
+        text-align: left !important;
+        margin-top: 1px;
+    }
+
+    .text-align-right{
+        text-align: right !important;
+        margin-top: 1px;
+    }
+
+    .buttonLink{
+        font-size: 16px;
+    }
+
+    .buttonReleaseAll{
+        margin-top: 0px;
+        margin-left: 1px;
+    }
+
+    .buttonLinkHeader{
+        font-size:20px;
+    }
+
+    .modal-dialog {
+        margin: 10rem auto;
+    }
+
+    .buttonLinkModal{
+        margin-top: 0px;
+    }
+
+    .pokemonLogo{
+        max-width: 20% !important;
+    }
+
+    .jumpPage{
+        text-align: left;
+    }
+
+    .react-bootstrap-table-page-btns-ul{
+        float: right !important;
+        justify-content: unset;
+    }
+
+    .buttonLinkHeader:hover{
+        font-size: 22px !important;
+    }
+}
+
+.iAlert{
+    font-size: 150px !important;
+}
+
+.success{
+    color: #a5dc86;
+}
+
+.failed{
+    color: #ff6961;
+}
+
+.modal-body {
+    padding: 3rem;
+}
+
+.welcome{
+    text-align: center;
+    padding: 1.25rem;
+}
+
+.navButton{
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+.navButton:hover{
+    /* padding: 10px; */
+    margin-top: 0.5rem;
+}
+
+.pokemonLogo {
+    background-color: transparent;
+    border: 0px;
+}
+
+.mr-auto{
+    margin: auto !important;
+}
+
+.showTitle{
+    padding-top: 5px;
+}
+
+.pokeUrl{
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.pokeUrl:hover{
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.pikachuLoader{
+    padding-top: 50px !important;
+}
+
+.marginBottom{
+    margin-bottom: 30px;
+}
+
+.topBottomMargin{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.bottomMargin{
+    margin-bottom: 40px;
+}
+
+.cardMyPokemon{
+    margin-top: 5px;
+    border: none;
+}
+
+.topMargin{
+    margin-top: 20px;
+}
+
+.topMargin2{
+    margin-top: 50px;
+}
+
+.marginButton{
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+.text-align-left{
+    text-align: left;
+}
+
+.text-align-right{
+    text-align: right;
+}
+
+.text-align-right{
+    text-align: center;
+}
+
+.text-align-left-header{
+    text-align: left;
+    padding-left: 0;
+}
+
+.text-align-right-header{
+    text-align: right;
+    padding-right: 0;
+}
+
+.buttonLinkHeader{
+    background-color: transparent !important;
+    border-color:transparent !important;
+    color: #007bff !important;
+    font-weight: 500;
+    border: none !important;
+}
+
+.buttonLinkHeader:hover{
+    background-color: transparent !important;
+    border-color:transparent !important;
+    color: #002da8 !important;
+    border: none !important;
+    margin-top: 0.5px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.buttonLinkHeader:target{
+    background-color: transparent !important;
+    border-color:transparent !important;
+    color: #002da8 !important;
+    border: none !important;
+    margin-top: 0.5px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.buttonLink{
+    background-color:#FF7F50 !important;
+    border-color:#FF7F50 !important;
+}
+
+.buttonLink:hover{
+    background-color:#FF4500;
+    border-color:#FF4500;
+    margin-top: 1px;
+}
+
+.buttonLink:active{
+    background-color:#FF4500 !important;
+    border: none !important;
+    margin-top: 1px;
+}
+
+.pokemonName{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.imgGallery{
+    background-color:#DCDCDC;
+}
+
+.buttonCatch{
+    background-color: #fff !important;
+    border: none !important;
+    color: #000 !important;
+    font-weight: 500;
+}
+
+.buttonCatch:hover img{
+    content:url("./pokeball.png");
+}
+
+.buttonCatch:hover{
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.buttonCatch:active{
+    background-color: #fff !important;
+    border: none !important;
+    color: #000 !important;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.buttonRelease{
+    background-color: #E74C3C;
+}
+
+.buttonRelease:hover{
+    background-color: #B03A2E;
+    margin-top: 1px;
+}
+
+/*----------------------------------------------------- Pokemon Type ------------------------------------------------------------*/
+.grassButton{
+    background-color: #58D68D;
+    border-color: #58D68D;
+}
+
+.grassButton:hover{
+    background-color: #28B463;
+    border-color: #28B463;
+}
+
+.normalButton {
+    background-color: #ABB2B9;
+    border-color: #ABB2B9;
+}
+
+.normalButton:hover {
+    background-color: #808B96;
+    border-color: #808B96;
+}
+
+.fightingButton {
+    background-color: #ABB2B9;
+    border-color: #ABB2B9;
+}
+
+.fightingButton:hover{
+    background-color: #808B96;
+    border-color: #808B96;
+}
+
+.flyingButton {
+    background-color: #ABB2B9;
+    border-color: #ABB2B9;
+}
+
+.flyingButton:hover {
+    background-color: #808B96;
+    border-color: #808B96;
+}
+
+.psychicButton {
+    background-color: #ABB2B9;
+    border-color: #ABB2B9;
+}
+
+.psychicButton:hover {
+    background-color: #808B96;
+    border-color: #808B96;
+}
+
+.unknownButton {
+    background-color: #ABB2B9;
+    border-color: #ABB2B9;
+}
+
+.unknownButton:hover {
+    background-color: #808B96;
+    border-color: #808B96;
+}
+
+.shadowButton{
+    background-color: #ABB2B9;
+    border-color: #ABB2B9;
+}
+
+.shadowButton:hover{
+    background-color: #808B96;
+    border-color: #808B96;
+}
+
+.poisonButton{
+    background-color: #BB8FCE;
+    border-color: #BB8FCE;
+}
+
+.poisonButton:hover{
+    background-color: #8E44AD;
+    border-color: #8E44AD;
+}
+
+.dragonButton{
+    background-color: #F1948A;
+    border-color: #F1948A;
+}
+
+.dragonButton:hover{
+    background-color: #E74C3C;
+    border-color: #E74C3C;
+}
+
+.fireButton{
+    background-color: #E74C3C;
+    border-color: #E74C3C;
+}
+
+.fireButton:hover{
+    background-color: #B03A2E;
+    border-color: #B03A2E;
+}
+
+.waterButton{
+    background-color: #85C1E9;
+    border-color: #85C1E9;
+}
+
+.waterButton:hover{
+    background-color: #3498DB;
+    border-color: #3498DB;
+}
+
+.iceButton{
+    background-color: #85C1E9;
+    border-color: #85C1E9;
+}
+
+.iceButton:hover{
+    background-color: #3498DB;
+    border-color: #3498DB;
+}
+
+.darkButton {
+    background-color: #212F3D;
+    border-color: #212F3D;
+}
+
+.darkButton:hover {
+    background-color: #17202A;
+    border-color: #17202A;
+}
+
+.ghostButton{
+    background-color: #212F3D;
+    border-color: #212F3D;
+}
+
+.ghostButton:hover{
+    background-color: #17202A;
+    border-color: #17202A;
+}
+.groundButton{
+    background-color: #E59866;
+    border-color: #E59866;
+}
+
+.groundButton:hover{
+    background-color: #BA4A00;
+    border-color: #BA4A00;
+}
+
+.rockButton{
+    background-color: #E59866;
+    border-color: #E59866;
+}
+
+.rockButton:hover{
+    background-color: #BA4A00;
+    border-color: #BA4A00;
+}
+
+.bugButton{
+    background-color: #E59866;
+    border-color: #E59866;
+}
+
+.bugButton:hover{
+    background-color: #BA4A00;
+    border-color: #BA4A00;
+}
+
+.steelButton{
+    background-color: #85C1E9;
+    border-color: #85C1E9;
+}
+
+.steelButton:hover{
+    background-color: #3498DB;
+    border-color: #3498DB;
+}
+
+.electricButton{
+    background-color: #5499C7;
+    border-color:#5499C7;
+}
+
+.electricButton:hover{
+    background-color: #2471A3;
+    border-color: #2471A3;
+}
+
+.fairyButton{
+    background-color: #F0F3F4;
+    border-color:  #F0F3F4;
+    color: #ffffff;
+}
+
+.fairyButton{
+    background-color: #979A9A;
+    border-color: #979A9A;
+    color: #ffffff;
+}
+
+.abilitesButton{
+    background-color:#87e187;
+    border-color:#87e187;
+    color: #ffffff;
+}
+
+.abilitesButton:hover {
+    background-color: #90C978;
+    border-color: #90C978;
+    color: #ffffff;
+}
+
+.movesButton{
+    background-color: #9DBAD5;
+    border-color:#9DBAD5;
+    color: #ffffff;
+}
+
+.movesButton:hover{
+    background-color: #769ECB;
+    border-color:#769ECB;
+    color: #ffffff;
+}
+
+.cursorContext{
+    cursor: context-menu !important;
+}
+
+.cursorPointer{
+    cursor: pointer !important;
+}
